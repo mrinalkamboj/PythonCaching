@@ -2,7 +2,7 @@
 Practical Python Caching Framework
 
 1. Framework implements a Caching framework which can be used with the Python Projects
-2. Implements in process (dict) and distributed (Redis) cache
+2. Implements in process (dict) and distributed (Redis) cache. In process cache can easily be replaced by more durable Functools LRU Cache
 3. An environment variable "cache_type" can be set to "local / distributed" for invoking the relevant Cache
 4. Default is local inprocess Cache
 5. Install Required Libraries using requirements.txt
